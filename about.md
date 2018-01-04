@@ -2,41 +2,30 @@
 layout: page
 permalink: /about/index.html
 title: About
-description: I'm excited about improving science (and your life) using machine learning and design.
-tags: [about, Jaan Altosaar, Princeton, PhD, machine learning, afropunk, collective behavior, columbia, physics, computer science, useful science, design, artificial intelligence, intelligent design]
+description: I'm a graduate student working on topics in quantum foundations, cognitive science, and political theory. Quiescent Software Engineer. A Failed Poet.
+tags: [about, Haider Riaz Khan, McGill, MA, graduate school, machine learning, philosophy, Waterloo, physics, computer science, quantum information theory, quantum theory, cognitive science, artificial intelligence, politics]
 image:
-  feature: altosaar-workshop.jpg
+  feature: Me+Reading.jpg
 ---
-I'm a Physics PhD student at Princeton doing research at the intersection of Bayesian inference and deep learning. I am fortunate to be advised by [David Blei](http://www.cs.columbia.edu/~blei/) and [Shivaji Sondhi](http://www.princeton.edu/~sondhi/). 
+I'm an MA student in the [philosophy department](https://uwaterloo.ca/philosophy/) at the University of Waterloo. My current research can be partitioned into three disparate topics: (1) resolving problems in quantum foundations by utilizing quantum information theory in conjunction with the appropriate metaphysical structure (2) the nature and origins of human ownership and property (3) viability of societies with decentralized workers' control of the means of production.
 
-My work is supported by an NSERC Postgraduate Scholarship. In 2015 I had lots of fun doing research with [Andriy Mnih](https://www.cs.toronto.edu/~amnih/) at [DeepMind](http://deepmind.com/), and in 2016 I collaborated with [Eugene Brevdo](https://web.math.princeton.edu/~ebrevdo/) at [Google Brain](https://research.google.com/).
+Prior to Waterloo, I worked as a software engineer in NYC at [Medidata](https://www.mdsol.com/en) during the somewhat [bizarre](https://www.theguardian.com/us-news/2016/nov/09/donald-trump-wins-us-election-news) 2016-2017 calendar year. I graduated from [McGill University](http://www.mcgill.ca/about/) in June 2015 with a bachelor's in Physics & Computer Science. To learn more about my education and work history, take a look at my <a href="{{ site.url }}/CV">my CV</a>.
 
-Find my CV at [jaan.io/cv](https://jaan.io/cv). In short: when it comes to Big Data, I live, breathe, and eat it. Crunchy crispy models are my bread and butter, lunch, and mother.
-
-I'm Estonian-Canadian and graduated from McGill in 2013. Outside of academia, I love volleyball, meditation, [music production](https://soundcloud.com/lyfos), and George Saunders. 
-
-How can we use technology such as machine learning to effect the most societal good? This is what motivates me. In 2014, I launched [Useful Science](http://usefulscience.org) with a group of friends – I hope you'll find a study on there that improves your life.
+ I have been living in Canada since 2007 and became a Canadian in 2012. My ancestral homeland is [Khyber Pakhtunkhwa](https://www.britannica.com/place/Khyber-Pakhtunkhwa), Pakistan. Apart from natural philosophy and political theory, I have an interest in Pashto and Urdu Poetry, existentialist literature, and jazz.
 
 ---
 
-### Reach!
+### Contact
 
-The best way to reach me is [altosaar@princeton.edu](mailto:altosaar@princeton.edu). I'm grateful for any positive or negative feedback through [this anonymous form](http://www.admonymous.com/jaan). Feel free to connect via:
+The best way to reach me is by <a href="mailto:h7riaz-at-uwaterloo-dot-ca">email</a>. You can also find me at:
 
-[{% icon fa-twitter %} Twitter](https://twitter.com/thejaan)
-[{% icon fa-linkedin %} LinkedIn](http://www.linkedin.com/in/jaanaltosaar)
-[{% icon fa-soundcloud %} Soundcloud](https://soundcloud.com/lyfos)
-[{% icon fa-flickr %} Flickr](https://www.flickr.com/photos/thejaan/)
-[{% icon fa-github %} GitHub](https://github.com/altosaar)
+[{% icon fa-twitter %} Twitter](https://twitter.com/haiderriazkhan)
+[{% icon fa-linkedin %} LinkedIn](https://www.linkedin.com/in/haider-khan-57593aba/)
+[{% icon fa-github %} GitHub](https://github.com/haiderriazkhan)
+[{% icon fa-flickr %} Flickr](https://www.flickr.com/photos/135656155@N08/albums)
 
 ---
 
-### Colophon
+### Acknowledgment
 
-Hey! Having a 'colophon' doesn't mean I'm a jerk! Just wanted to thank [Cole Townsend](http://coletownsend.com/) for letting me fork his Jekyll theme – the code is available [here](https://github.com/altosaar/jaan.io) :)
-
-
-
-
-
-
+The website was built by forking [Jaan Altosaar's](https://jaan.io/) elegant Jekyll theme-- in turn inspired by [Cole Townsend's](http://coletownsend.com/) theme.

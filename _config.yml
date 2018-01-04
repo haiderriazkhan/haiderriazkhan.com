@@ -1,8 +1,8 @@
-title:            Jaan
-titlehilight:     Altosaar
-tagline:          PhD student at Princeton.
-description:      PhD student at Princeton.
-logo:             jathumb.jpg
+title:            Haider
+titlehilight:     Riaz Khan
+tagline:          MA student at University of Waterloo.
+description:      MA student at University of Waterloo.
+logo:             #jathumb.jpg
 #Comment out url when working locally to resolve base urls correctly
 #url: https://jaan.io
 
@@ -10,12 +10,12 @@ logo:             jathumb.jpg
 
 # Owner/author information
 owner:
-  name:           Jaan Altosaar
-#  avatar:         avatar.png
-  bio:            "Estonian-Canadian"
-  email:          jaan@jaan.io
-  twitter:        thejaan
-  github:         altosaar
+  name:           Haider Riaz Khan
+  bio:            "Pakistani-Canadian"
+  email:          haiderriazkhan@gmail.com
+  twitter:        haiderriazkhan
+  github:         haiderriazkhan
+  #  avatar:         avatar.png
 #  instagram:      ctrunsthis
 #  dribbble:       coletownsend
 #  disqus:         balzac
