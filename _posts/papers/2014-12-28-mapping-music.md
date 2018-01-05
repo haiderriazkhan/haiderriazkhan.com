@@ -1,17 +1,17 @@
 ---
 layout: external
-title: MusicMappr
+title: comBinatorial bIg daTa Test dAta Generator (BIT-TAG)
 role: Advisor
 category: papers
-external_url: http://www.thewire.co.uk/in-writing/interviews/play-the-musicmappr-sampling-app
+external_url: https://dl.acm.org/citation.cfm?id=2970325&CFID=848128983&CFTOKEN=19430584
 tags: [online music, digital, remix, dj, generative music, music, art]
 image:
   thumb: musicmapperthumb.png
 published: true
 ---
 
-Enable anyone to make a beat in 30 seconds, using machine learning in JavaScript. *Press!* Interviewed and live demo featured on [The Wire](http://www.thewire.co.uk/in-writing/interviews/play-the-musicmappr-sampling-app) magazine!
+BIT-TAG is a Java based program for generating test data for big data applications.
 
-Ethan Benjamin, Jaan Altosaar. MusicMapper: Interactive 2D representations of music samples for in-browser remixing and exploration, [NIME 2015](http://www.nime.org/wp-publications/jaltosaar2015/), Louisiana State University, 2015. 
+Nan Li, Jeff Lei, *Haider Khan*, Jingshu Liu, Yun Guo. Applying Combinatorial Test Data Generation to Big Data Applications. [ASE 2016: Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering](http://www.ase2016.org/).
 
-[{% icon fa-file-pdf-o %} PDF](/papers/2015_Benjamin-Altosaar_MusicMapper.pdf)  [{% icon fa-github %} Github](https://github.com/fatsmcgee/MusicMappr)  [{% icon fa-youtube-play %} YouTube demo](https://www.youtube.com/watch?v=mvD6e1uiO8k)  [{% icon fa-laptop %} Live demo](http://fatsmcgee.github.io/MusicMappr/)
+[comment]: <> [{% icon fa-file-pdf-o %} PDF](/papers/2015_Benjamin-Altosaar_MusicMapper.pdf)  

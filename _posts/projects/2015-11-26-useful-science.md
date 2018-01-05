@@ -1,14 +1,12 @@
 ---
 layout: external
-title: Useful Science
-role: Founder
+title: CANDLE-J
+role: Developer
 category: projects
-external_url: http://usefulscience.org
-tags: [open science, open source, science, startup, company, summary, useful science, usefulsci, jaan altosaar]
+external_url: https://github.com/haiderriazkhan/CANDLE-J
+tags: [open science, open source, science, image, images, denoising, 3D, software, ImageJ, plugin, 3D multiphoton microscopy, haider riaz khan]
 image:
   thumb: usefulscience-square-logo.png
 published: true
 ---
-One sentence summaries of science to improve your life (incl. [podcast](http://www.usefulscience.org/podcast)). Live at [usefulscience.org](http://www.usefulscience.org). I helped write an [editorial](https://theconversation.com/accurate-science-or-accessible-science-in-the-media-why-not-both-59871) about our mission.
-
-*Featured* on various news websites; 'received funding' on CBC Television's Dragons' Den ([link to episode](https://drive.google.com/file/d/0B1auAcbZIBoTVFRQdFBNQXRDY2s/view?usp=sharing)).
+CANDLE-J is an image denoising algorithmic software and an [ImageJ](https://imagej.nih.gov/ij/) (open source image processing program) plugin. CANDLE-J is very adept at processing deep in vivo 3D multiphoton microscopy images where the signal to noise ratio (SNR) is generally low.
