@@ -185,7 +185,7 @@ blockquote, blockquote p {
 /************ Basic *************/
 body {
   font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
-  color: #3b3b3b;
+  color: #222222;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
   text-size-adjust: 100%;
@@ -207,7 +207,7 @@ a.footnote:after {
   overflow-x: auto; }
 
 .hilighted {
-  color: #c66b09;
+  color: #3778C7;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -215,7 +215,7 @@ a.footnote:after {
   transition: all 0.2s ease-in-out; }
 
 .unhilighted {
-  color: #3b3b3b;
+  color: #222222;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -230,9 +230,9 @@ h3 {
 
 p {
   margin-bottom: 32px; }
-
+/*  #088634   #3CCF88*/
 a, a:visited, a:active {
-  color: #c66b09;
+  color: #3778C7;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
@@ -281,7 +281,7 @@ code {
   font-weight: bold; }
 
 .highlight {
-  background: #3b3b3b;
+  background: #222222;
   padding: 12px;
   border-radius: 4px;
   margin-bottom: 32px;
@@ -323,7 +323,7 @@ input {
   font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif; }
 .archive input:focus {
   background: white;
-  color: #3b3b3b; }
+  color: #222222; }
 
 /* Variables and Building Blocks */
 .icons {
@@ -371,6 +371,7 @@ input {
   float: none; }
 
 /* Header */
+/* The color of the tabs at the top can be changed here  */
 header.site-header {
   padding: 40px 0;
   position: relative;
@@ -387,23 +388,23 @@ header.site-header .wrap {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 #bump .darken a:hover {
-  color: #c66b09;
+  color: #3778C7;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 #bump .darken .menu .icons {
-  color: #3b3b3b; }
+  color: #222222; }
 #bump .darken nav ul li a {
   color: #a8a8a8; }
 #bump .darken nav ul li a:active {
-  color: #c66b09; }
+  color: #3778C7; }
 #bump .darken nav ul li a:hover {
   text-shadow: none;
-  color: #c66b09; }
+  color: #3778C7; }
 #bump .darken nav ul li.active a {
-  color: #c66b09; }
+  color: #3778C7; }
 
 header.site-header a.menu {
   display: none; }
@@ -505,7 +506,7 @@ header.site-header nav ul li a:hover {
 .article header {
   margin: 64px 0 32px 0; }
 .article header hgroup {
-  color: #3b3b3b;
+  color: #222222;
   position: relative;
   text-align: center;
   width: 100%;
@@ -555,7 +556,7 @@ header.site-header nav ul li a:hover {
 .archive-wrap .post-list lh h2 {
   margin-bottom: 48px; }
 .archive-wrap .post-list lh h2 a {
-  color: #3b3b3b; }
+  color: #222222; }
 .archive-wrap .post-list lh h2 a:hover {
   color: #24536B; }
 .archive-wrap .post-list .featured-image-small {
@@ -648,7 +649,7 @@ header.site-header nav ul li a:hover {
 .post h1 {
   font-style: italic; }
 .post h1 a {
-  color: #3b3b3b;
+  color: #222222;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -748,7 +749,7 @@ footert footer {
   background: #f9f9f9;
   height: 80px;
   font-size: 24px;
-  color: #3b3b3b;
+  color: #222222;
   position: relative; }
 footert footer small {
   font-size: 16px;
@@ -942,7 +943,7 @@ footert footer .social ul li:last-child {
   #bump .darken nav ul {
     padding: 0;
     margin-top: 40px;
-    background: #3b3b3b; }
+    background: #222222; }
 
   #bump .darken nav ul li a {
     color: #f9f9f9; }
