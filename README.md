@@ -1,6 +1,6 @@
 # Personal Website
 
-This Jekyll theme powers my [personal website](haiderriazkhan.com/).
+This repository hosts my [personal website](haiderriazkhan.com/).
 
 This is forked from [Jaan Altosaar's](https://jaan.io) Jekyll [theme](https://github.com/altosaar/jaan.io).
 
