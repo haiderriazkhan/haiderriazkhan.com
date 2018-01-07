@@ -13,7 +13,7 @@ An incomplete list of my favorite books of fiction:
 
 - Hamlet
 - The Brothers Karamazov
-- The Adventures of Huckleberry Finn
 - The Great Gatsby
 - Of Mice and Men
 - Heart of Darkness
+- The Adventures of Huckleberry Finn
