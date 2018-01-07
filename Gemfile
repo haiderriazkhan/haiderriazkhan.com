@@ -5,6 +5,7 @@ gem 'jekyll-minibundle'
 gem 'coderay'
 gem 'rake'
 
+# Ignoring for now
 #group :jekyll_plugins do
 #  gem 'jekyll-assets'
 #  gem 'sass' # add only if you're using sass for your stylesheets
