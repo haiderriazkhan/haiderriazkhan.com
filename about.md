@@ -5,7 +5,7 @@ title: About
 description: I'm a graduate student working on topics in quantum foundations, cognitive science, and political theory. Quiescent Software Engineer. A Failed Poet.
 tags: [about, Haider Riaz Khan, McGill, MA, graduate school, machine learning, philosophy, Waterloo, physics, computer science, quantum information theory, quantum theory, cognitive science, artificial intelligence, politics]
 image:
-  feature: Me+Reading.jpg
+  feature: MeReading.jpg
 ---
 I'm an MA student in the [philosophy department](https://uwaterloo.ca/philosophy/) at the University of Waterloo. My current research can be partitioned into three disparate topics: (1) resolving problems in quantum foundations by utilizing quantum information theory in conjunction with the appropriate metaphysical structure (2) the nature and origins of human ownership and property (3) viability of societies with decentralized workers' control of the means of production.
 
