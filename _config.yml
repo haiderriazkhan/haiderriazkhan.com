@@ -49,18 +49,18 @@ highlighter: pygments
 markdown:    kramdown
 
 kramdown:
-  auto_ids: true
+  #auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
 
 # syntax_highlighter_opts:
-   coderay:
-     line_numbers:
-     line_numbers_start: 1
-     tab_width: 4
-     bold_every: 10
-     css: class
+#   coderay:
+#     line_numbers:
+#     line_numbers_start: 1
+#     tab_width: 4
+#     bold_every: 10
+#     css: class
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks -- was /:categories/:title
 permalink:   /:title/
