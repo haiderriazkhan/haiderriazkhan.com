@@ -20,7 +20,7 @@ Prior to Waterloo, I worked as a software engineer in NYC at [Medidata](https://
 The best way to reach me is by <a href="mailto:h7riaz-at-uwaterloo-dot-ca">email</a>. You can also find me at:
 
 [ Twitter](https://twitter.com/haiderriazkhan)
-[{ LinkedIn](https://www.linkedin.com/in/haider-khan-57593aba/)
+[ LinkedIn](https://www.linkedin.com/in/haider-khan-57593aba/)
 [ GitHub](https://github.com/haiderriazkhan)
 [ Flickr](https://www.flickr.com/photos/135656155@N08/albums)
 
