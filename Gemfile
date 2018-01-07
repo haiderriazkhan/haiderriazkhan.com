@@ -6,7 +6,7 @@ gem 'jekyll-minibundle'
 gem 'coderay'
 gem 'rake'
 
-#gem 'github-pages'
+gem 'github-pages'
 
 
 #group :jekyll_plugins do
