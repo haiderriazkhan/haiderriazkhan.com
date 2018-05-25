@@ -6,9 +6,13 @@ category: articles
 modified: 2015-10-23
 tags: [books, novels, fiction]
 image:
-  thumb: LibraryMan.jpg
+  thumb: WeatherEyeCommuniques.jpg
 ---
 
-A spectre is haunting America-- the spectre of fake news. But I am not simply referring to the explosion of  
+Sources of commentary and news:  
 
-Chomsky, East Timur. Chomsky NYT joke. Barrett Brown NYT. Barry Weiss, Bret Stephen, David Brooks, Ross Douthat, Friedman etc. The Atlantic hiring Kevin Williamson. 
+[The Nation](https://www.thenation.com/)
+[Dawn](https://www.dawn.com/)
+[Current Affairs](https://www.currentaffairs.org/)
+[Viewpoint Magazine](https://www.viewpointmag.com/)
+[Tanqeed](http://www.tanqeed.org/)
