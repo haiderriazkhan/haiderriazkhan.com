@@ -33,8 +33,8 @@ owner:
 links:
   - title: About
     url: /about
-  - title: Blog
-    url: /blog
+  #- title: Blog
+  #  url: /blog
   - title: Projects
     url: /projects
   - title: Publications
