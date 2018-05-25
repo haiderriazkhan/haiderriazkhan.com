@@ -12,7 +12,11 @@ image:
 Sources of commentary and news:  
 
 [The Nation](https://www.thenation.com/)
+
 [Dawn](https://www.dawn.com/)
+
 [Current Affairs](https://www.currentaffairs.org/)
+
 [Viewpoint Magazine](https://www.viewpointmag.com/)
+
 [Tanqeed](http://www.tanqeed.org/)
