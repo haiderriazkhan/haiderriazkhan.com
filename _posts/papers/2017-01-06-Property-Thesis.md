@@ -12,6 +12,6 @@ published: true
 
 [comment]: <> This thesis delineates the phenomenological basis of ownership and property.
 
-Haider Riaz. (2018). The Phenomenological Origins of Property. *[UWSpace](https://uwspace.uwaterloo.ca/)*. 
+Haider Riaz (2018). The Phenomenological Origins of Property. *[UWSpace](https://uwspace.uwaterloo.ca/)*. 
 
-[{% icon fa-file-pdf-o %} PDF](/papers/BIT-TAG.pdf)
+[{% icon fa-file-pdf-o %} PDF](/papers/Property_Thesis.pdf)
