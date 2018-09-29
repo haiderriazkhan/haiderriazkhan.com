@@ -6,7 +6,7 @@ category: papers
 external_url: https://uwspace.uwaterloo.ca/handle/10012/13937
 tags: [Property, Ownership, Phenomenology, Hegel, Body Schema, Associative Psychology, Minimal Self]
 image:
-  thumb: LEARNING-MACHINE.jpg
+  thumb: composition.jpg
 published: true
 ---
 
