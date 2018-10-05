@@ -14,4 +14,4 @@ published: true
 
 Haider Riaz (2018). The Phenomenological Origins of Property. *[UWSpace](https://uwspace.uwaterloo.ca/)*. 
 
-[{% icon fa-file-pdf-o %} PDF](/papers/Property_Thesis.pdf)
+[{% icon fa-file-pdf-o %} PDF](/papers/Property-Thesis.pdf)
