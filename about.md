@@ -13,7 +13,7 @@ Prior to Waterloo, I worked as a software engineer in NYC during the somewhat [c
 
  Apart from philosophy and political theory, I have an interest in Pashto and Urdu Poetry, existentialist literature, and genres of music embedded in socio-political struggles.
 
- P.S. My legal name is Haider Riaz. But I generally prefer Haider Riaz Khan as my full name.   
+ P.S. My legal name is Haider Riaz. But I generally use Haider Riaz Khan as my full name.   
 
 ---
 
