@@ -23,6 +23,7 @@ The best way to reach me is by <a href="mailto:h7riaz-at-uwaterloo-dot-ca">email
 [{% icon fa-twitter %} Twitter](https://twitter.com/haiderriazkhan)
 [{% icon fa-github %} GitHub](https://github.com/haiderriazkhan)
 [{% icon fa-flickr %} Flickr](https://www.flickr.com/photos/135656155@N08/albums)
+
 ---
 
 ### Acknowledgment
