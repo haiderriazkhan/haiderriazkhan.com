@@ -12,8 +12,7 @@ I completed an MA in philosophy from the University of Waterloo in 2018. During 
 Prior to Waterloo, I worked as a software engineer in NYC during the somewhat [chaotic](https://www.theguardian.com/us-news/2016/nov/09/donald-trump-wins-us-election-news) 2016 calendar year. To keep the tradition alive, I came back to work in the city in September 2019. I graduated from [McGill University](http://www.mcgill.ca/about/) in June 2015 with a bachelor's in Physics & Computer Science. To learn more about my education and work history, take a look at <a href="{{site.url}}/CV.pdf">my CV</a>.
 
  Apart from philosophy and political theory, I have an interest in Pashto and Urdu Poetry, existentialist literature, and genres of music embedded in socio-political struggles.
-
- P.S. My legal name is Haider Riaz. But I generally use Haider Riaz Khan as my full name.   
+   
 
 ---
 
@@ -22,11 +21,8 @@ Prior to Waterloo, I worked as a software engineer in NYC during the somewhat [c
 The best way to reach me is by <a href="mailto:h7riaz-at-uwaterloo-dot-ca">email</a>. You can also find me at:
 
 [{% icon fa-twitter %} Twitter](https://twitter.com/haiderriazkhan)
-[{% icon fa-linkedin %} LinkedIn](https://www.linkedin.com/in/haider-khan-57593aba/)
 [{% icon fa-github %} GitHub](https://github.com/haiderriazkhan)
 [{% icon fa-flickr %} Flickr](https://www.flickr.com/photos/135656155@N08/albums)
-[{% icon fa-instagram %} Instagram](https://www.instagram.com/haiderriazkhan/)
-
 ---
 
 ### Acknowledgment
