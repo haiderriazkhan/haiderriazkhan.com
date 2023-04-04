@@ -12,4 +12,6 @@ published: true
 
 [comment]: <>
 
-Haider Riaz Khan. The Forever War. *[Commune](https://communemag.com/)*, Issue 5, Winter 2020.
+*[Commune](https://communemag.com/)*, Issue 5, Winter 2020.
+
+[{% icon fa-file-pdf-o %} PDF](/papers/Afghanistan-Commune.pdf)
