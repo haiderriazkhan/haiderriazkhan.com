@@ -11,7 +11,7 @@ I completed an MA in philosophy from the University of Waterloo in 2018. During 
 
 Prior to Waterloo, I worked as a software engineer in NYC during the somewhat [chaotic](https://www.theguardian.com/us-news/2016/nov/09/donald-trump-wins-us-election-news) 2016 calendar year. To keep the tradition alive, I came back to work in the city in September 2019. I graduated from [McGill University](http://www.mcgill.ca/about/) in June 2015 with a bachelor's in Physics & Computer Science. To learn more about my education and work history, take a look at <a href="{{site.url}}/CV.pdf">my CV</a>.
 
- Apart from philosophy and political theory, I have an interest in Pashto and Urdu Poetry, existentialist literature, and genres of music embedded in socio-political struggles.
+ Apart from philosophy and political theory, I have an interest in Pashto and Urdu Poetry, existentialist literature, and genres of music embedded in socio-political struggles.x
    
 
 ---
