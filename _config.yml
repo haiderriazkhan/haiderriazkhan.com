@@ -88,3 +88,7 @@ assets:
 sass:
   sass_dir: assets/sass
   style: compressed
+
+plugins:
+  - jekyll-redirect-from
+
