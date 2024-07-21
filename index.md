@@ -1,16 +1,16 @@
 ---
 layout: page
 title: About
-description: I'm a philosopher working on topics in quantum foundations, cognitive science, and political theory.
-tags: [about, Haider Riaz Khan, McGill, MA, graduate school, machine learning, philosophy, Waterloo, physics, computer science, quantum information theory, quantum theory, cognitive science, artificial intelligence, politics]
+description: I'm a graduate student and software engineer with interests in math, physics and philosophy.
+tags: [about, Haider Riaz Khan, McGill, MA, graduate school, philosophy, Waterloo, physics, computer science, quantum information theory, quantum theory, cognitive science, politics]
 image:
   feature:  MeReading.jpg
 ---
-I completed an MA in philosophy from the University of Waterloo in 2018. During my time in graduate school, I worked on two main research projects: (1) resolving problems in quantum foundations by utilizing quantum information theory in conjunction with the appropriate metaphysical structure (2) the nature and origin of human ownership and property.
+I'm a master's student in mathematics at the City College of New York but I moonlight as a software engineer. In 2018, I completed an MA in philosophy from the University of Waterloo where I did my <a href="{{site.url}}/papers/Property-Thesis.pdf">thesis</a> on the nature and origins of psychological ownership.
 
-Prior to Waterloo, I worked as a software engineer in NYC during the somewhat [chaotic](https://www.theguardian.com/us-news/2016/nov/09/donald-trump-wins-us-election-news) 2016 calendar year. To keep the tradition alive, I came back to work in the city in September 2019. I graduated from [McGill University](http://www.mcgill.ca/about/) in June 2015 with a bachelor's in Physics & Computer Science. To learn more about my education and work history, take a look at <a href="{{site.url}}/CV.pdf">my CV</a>.
+Prior to Waterloo, I worked as a software engineer in NYC during the somewhat [chaotic](https://www.theguardian.com/us-news/2016/nov/09/donald-trump-wins-us-election-news) 2016 calendar year. To keep the tradition alive, I came back to work in the city in September 2019. I graduated from McGill University in June 2015 with a bachelor's in Physics & Computer Science. To learn more about my education and work history, take a look at <a href="{{site.url}}/CV.pdf">my CV</a>.
 
- Apart from philosophy and political theory, I have an interest in Pashto and Urdu Poetry, existentialist literature, and genres of music embedded in socio-political struggles.
+ Apart from philosophy and physics, I have an interest in Pashto and Urdu Poetry, existentialist literature, and political theory.
    
 
 ---
