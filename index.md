@@ -4,7 +4,7 @@ title: About
 description: I'm a graduate student and software engineer with interests in math, physics and philosophy.
 tags: [about, Haider Riaz Khan, McGill, MA, graduate school, philosophy, Waterloo, physics, computer science, quantum information theory, quantum theory, cognitive science, politics]
 image:
-  feature:  Manhattan.jpg
+  feature:  MeReading.jpg
 ---
 I'm a master's student in mathematics at the City College of New York but I moonlight as a software engineer. In 2018, I completed an MA in philosophy from the University of Waterloo where I did my <a href="{{site.url}}/papers/Property-Thesis.pdf">thesis</a> on the nature and origins of psychological ownership.
 
