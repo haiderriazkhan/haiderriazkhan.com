@@ -8,7 +8,7 @@ image:
 ---
 I'm a master's student in mathematics at the City College of New York but I moonlight as a software engineer. In 2018, I completed an MA in philosophy from the University of Waterloo where I did my <a href="{{site.url}}/papers/Property-Thesis.pdf">thesis</a> on the nature and origins of psychological ownership.
 
-Prior to Waterloo, I worked as a software engineer in NYC during the somewhat [chaotic](https://www.theguardian.com/us-news/2016/nov/09/donald-trump-wins-us-election-news) 2016 calendar year. To keep the tradition alive, I came back to work in the city in September 2019. I graduated from McGill University in June 2015 with a bachelor's in Physics & Computer Science. To learn more about my education and work history, take a look at <a href="{{site.url}}/CV.pdf">my CV</a>.
+Prior to Waterloo, I worked as a software engineer in NYC during the somewhat [chaotic]({{site.url}}/images/Moby-Dick-Grand-Elections.png) 2016 calendar year. To keep the tradition alive, I came back to work in the city in September 2019. I graduated from McGill University in June 2015 with a bachelor's in physics & computer science. You can find more about my education and work history in <a href="{{site.url}}/CV.pdf">my CV</a>.
 
  Apart from my formal academic interests, I sometimes write about politics, history, and culture.
    
@@ -17,7 +17,7 @@ Prior to Waterloo, I worked as a software engineer in NYC during the somewhat [c
 
 ### Contact
 
-The best way to reach me is by <a href="mailto:haiderriazkhan-at-gmail-dot-com">email</a>. You can also find me at:
+The best way to reach me is by <a href="mailto:haiderriazkhan-at-gmail-dot-com">email</a>.
 
 [{% icon fa-github %} GitHub](https://github.com/haiderriazkhan)
 [{% icon fa-flickr %} Flickr](https://www.flickr.com/photos/135656155@N08/albums)
