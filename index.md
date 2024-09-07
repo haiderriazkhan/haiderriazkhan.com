@@ -10,7 +10,7 @@ I'm a master's student in mathematics at the City College of New York but I moon
 
 Prior to Waterloo, I worked as a software engineer in NYC during the somewhat [chaotic]({{site.url}}/images/Moby-Dick-Grand-Elections.png) 2016 calendar year. To keep the tradition alive, I came back to work in the city in September 2019. I graduated from McGill University in June 2015 with a bachelor's in physics & computer science. To find out more, you can take a look at <a href="{{site.url}}/CV.pdf">my CV</a>.
 
- Apart from my formal academic interests, I sometimes write about the human condition.
+ Apart from my formal academic interests, I sometimes write about politics, history and the human condition.
    
 
 ---
