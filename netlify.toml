@@ -9,3 +9,19 @@
   from = "/about"
   to = "/"
   status = 301
+
+# Forester's stub at /notes/ redirects to the directory /notes/index/, but
+# Netlify's pretty-URL canonicalization 301s /notes/index/ back to /notes/,
+# creating a redirect loop (blank page). Jump straight to the rendered home
+# tree file instead; force = true is required because /notes/index.html exists.
+[[redirects]]
+  from = "/notes"
+  to = "/notes/index/index.xml"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/notes/"
+  to = "/notes/index/index.xml"
+  status = 302
+  force = true
