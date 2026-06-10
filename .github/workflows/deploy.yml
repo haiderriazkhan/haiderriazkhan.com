@@ -21,14 +21,18 @@ jobs:
         with:
           node-version: 20
 
+      # Pin to 5.3.0 to match local: Forester 5.0's dependency closure does not
+      # resolve on newer compilers (e.g. 5.4.x), so opam would silently fall
+      # back to an older Forester with a different output layout.
       - name: Set up OCaml
         uses: ocaml/setup-ocaml@v3
         with:
-          ocaml-compiler: "5"
+          ocaml-compiler: "5.3.0"
 
       # Forester is the OCaml tool that renders notes/trees into dist/notes/.
+      # Pin the version so the notes output layout stays reproducible.
       - name: Install Forester
-        run: opam install -y forester
+        run: opam install -y forester.5.0
 
       - name: Build site and notes
         run: opam exec -- npm run build
@@ -37,6 +41,7 @@ jobs:
         uses: nwtgck/actions-netlify@v3
         with:
           publish-dir: dist
+          netlify-config-path: ./netlify.toml
           production-deploy: true
           deploy-message: ${{ github.event.head_commit.message || github.sha }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
