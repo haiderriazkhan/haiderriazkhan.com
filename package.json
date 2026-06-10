@@ -1,0 +1,16 @@
+{
+  "name": "haiderriazkhan.com",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:site": "node scripts/build-site.mjs",
+    "build:notes": "node scripts/build-notes.mjs",
+    "dev": "node scripts/dev.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

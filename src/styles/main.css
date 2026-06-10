@@ -1,0 +1,298 @@
+:root {
+  color-scheme: light;
+  --bg: #f9f6f0;
+  --paper: #f0ead8;
+  --ink: #1a1a1a;
+  --muted: #6f6757;
+  --line: #c8bfa8;
+  --accent: #5c3d1e;
+  --accent-2: #8a6040;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "EB Garamond", Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.55;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+body {
+  margin: 0 auto;
+  max-width: 980px;
+  min-height: 100vh;
+  padding: 32px 24px 48px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+.site-header,
+.site-footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.site-header {
+  margin-bottom: 56px;
+  padding-bottom: 16px;
+}
+
+.site-title {
+  color: var(--ink);
+  font-family: "DM Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  font-family: "DM Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+}
+
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+nav a[aria-current="page"] {
+  color: var(--ink);
+}
+
+main {
+  padding: 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  text-align: center;
+}
+
+.intro img {
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  object-fit: cover;
+  width: 100%;
+  max-width: 560px;
+}
+
+.intro div {
+  max-width: 560px;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.social a {
+  color: var(--muted);
+  display: inline-flex;
+  line-height: 0;
+}
+
+.social a:hover {
+  color: var(--accent);
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  line-height: 1.12;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 1.22rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.page-heading {
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 32px;
+  padding-bottom: 18px;
+}
+
+.page-heading p {
+  color: var(--muted);
+  max-width: 640px;
+}
+
+.list {
+  display: grid;
+  gap: 28px;
+}
+
+.list-item {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 24px;
+}
+
+.list--projects {
+  gap: 72px;
+}
+
+.list--projects .list-item {
+  gap: 32px;
+  grid-template-columns: 200px minmax(0, 1fr);
+}
+
+.list--projects h2 {
+  font-size: 1.55rem;
+}
+
+.list--projects .meta {
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.list--papers {
+  gap: 36px;
+}
+
+.list--papers .list-item {
+  gap: 28px;
+  grid-template-columns: 140px minmax(0, 1fr);
+}
+
+.list--papers h2 {
+  font-size: 1.32rem;
+}
+
+.list--papers .meta {
+  font-size: 0.8rem;
+}
+
+.thumb {
+  display: block;
+}
+
+.thumb img {
+  aspect-ratio: 1.2;
+  border: 1px solid var(--line);
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.meta,
+.small-links,
+.site-footer {
+  color: var(--muted);
+  font-family: "DM Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+}
+
+.meta {
+  margin-bottom: 4px;
+}
+
+.small-links {
+  margin-top: 8px;
+}
+
+.note-status {
+  background: #f3f0e9;
+  border-left: 4px solid var(--accent);
+  padding: 20px 22px;
+}
+
+code {
+  font-family: "DM Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88em;
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  margin-top: 48px;
+  padding-top: 16px;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 20px 16px 36px;
+  }
+
+  .site-header,
+  .site-footer,
+  .list-item {
+    display: block;
+  }
+
+  nav {
+    margin-top: 12px;
+  }
+
+  main {
+    padding: 28px 20px;
+  }
+
+  .intro img {
+    max-width: 240px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .thumb img {
+    margin-bottom: 14px;
+    max-width: 180px;
+  }
+
+  .list--projects {
+    gap: 52px;
+  }
+
+  .list--projects .thumb img {
+    max-width: 220px;
+  }
+
+  .list--papers {
+    gap: 32px;
+  }
+
+  .list--papers .thumb img {
+    max-width: 200px;
+  }
+
+  .site-footer p + p {
+    margin-top: 8px;
+  }
+}
