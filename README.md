@@ -1,6 +1,16 @@
 # Personal Website
 
-This repository hosts my [personal website](https://haiderriazkhan.com/). It is built and deployed through [Netlify](https://www.netlify.com/).
+This repository hosts my [personal website](https://haiderriazkhan.com/). It is hosted on [Netlify](https://www.netlify.com/) but built and deployed by GitHub Actions.
+
+## Deployment
+
+Every push to `master` triggers a GitHub Actions workflow, which:
+
+1. Installs Node and OCaml (via `opam`) and then installs [Forester](https://sr.ht/~jonsterling/forester/).
+2. Runs `npm run build`, producing the full site **and** the notes in `dist/`.
+3. Deploys `dist/` to Netlify with the Netlify CLI action.
+
+OCaml/Forester only exists on the Actions runner, so the build happens there rather than in Netlify's Node-only build image. Netlify just serves the uploaded `dist/`.
 
 ## Development
 
