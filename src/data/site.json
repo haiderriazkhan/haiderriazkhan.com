@@ -1,0 +1,55 @@
+{
+  "name": "Haider Riaz Khan",
+  "title": "Haider Riaz Khan",
+  "description": "Mathematics, software, philosophy, politics, and notes.",
+  "email": "haiderriazkhan@gmail.com",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/haiderriazkhan"
+    },
+    {
+      "label": "Flickr",
+      "url": "https://www.flickr.com/photos/135656155@N08/albums"
+    },
+    {
+      "label": "CV",
+      "url": "/CV.pdf"
+    }
+  ],
+  "nav": [
+    {
+      "label": "About",
+      "url": "/"
+    },
+    {
+      "label": "Projects",
+      "url": "/projects/"
+    },
+    {
+      "label": "Papers",
+      "url": "/papers/"
+    },
+    {
+      "label": "Notes",
+      "url": "/notes/"
+    }
+  ],
+  "social": [
+    {
+      "platform": "github",
+      "label": "GitHub",
+      "url": "https://github.com/haiderriazkhan"
+    },
+    {
+      "platform": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/haider-riaz-57593aba/"
+    },
+    {
+      "platform": "flickr",
+      "label": "Flickr",
+      "url": "https://www.flickr.com/photos/135656155@N08/albums"
+    }
+  ]
+}

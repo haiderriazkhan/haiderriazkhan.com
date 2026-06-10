@@ -1,6 +1,9 @@
 *.DS_Store
 *.swp
 _site/*
+dist/*
+notes/output/*
+node_modules/*
 *.sass-cache*
 *.env
 *.ipynb_checkpoints
