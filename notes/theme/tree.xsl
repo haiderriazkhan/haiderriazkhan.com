@@ -34,7 +34,7 @@
           <nav class="site-nav" aria-label="Primary">
             <a href="/">About</a>
             <a href="/projects/">Projects</a>
-            <a href="/papers/">Papers</a>
+            <a href="/publications/">Publications</a>
             <a class="current" href="/notes/">Notes</a>
           </nav>
         </header>

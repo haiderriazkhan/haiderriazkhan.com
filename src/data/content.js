@@ -1,6 +1,6 @@
 export const about = [
   `I'm a software engineer and mathematician with a background in philosophy. At present, I'm working on symbolic codings of dynamical systems with <a href="https://tamara.ccny.cuny.edu/">Tamara Kucherenko</a>. To learn more about my work, please take a look at my <a href="/CV.pdf">CV</a>.`,
-  `I've been living in New York City for a better part of a decade. On most days, you can find me meandering in one of the city's many parks. My favorite museum is the Cloisters. I am fascinated by the <a href="/papers/Sea-Camus.pdf">ocean</a> and I have a wicked <a href="/images/left-hook.png">left hook</a>.`,
+  `I've been living in New York City for a better part of a decade. On most days, you can find me meandering in one of the city's many parks. My favorite museum is the Cloisters. I am fascinated by the <a href="/publications/Sea-Camus.pdf">ocean</a> and I have a wicked <a href="/images/left-hook.png">left hook</a>.`,
 ];
 
 export const projects = [
@@ -22,33 +22,33 @@ export const projects = [
   }
 ];
 
-export const papers = [
+export const publications = [
   {
     title: "Phenomenological Origins of Psychological Ownership",
     venue: "Review of General Psychology, 2022",
     url: "https://doi.org/10.1177/10892680221085506",
-    pdf: "/papers/Ownership_RGP.pdf",
+    pdf: "/publications/Ownership_RGP.pdf",
     image: "/images/composition.jpg"
   },
   {
     title: "The Forever War",
     venue: "Commune, Issue 5, Winter 2020",
     url: "https://communemag.com/the-forever-war/",
-    pdf: "/papers/afghanistan-Commune.pdf",
+    pdf: "/publications/afghanistan-Commune.pdf",
     image: "/images/afghanistan.jpg"
   },
   {
     title: "comBinatorial bIg daTa Test dAta Generator (BIT-TAG)",
     venue: "ASE 2016",
     url: "https://dl.acm.org/citation.cfm?id=2970325",
-    pdf: "/papers/BIT-TAG.pdf",
+    pdf: "/publications/BIT-TAG.pdf",
     image: "/images/rootedBinaryTree.png"
   },
   {
     title: "Of Cricket and Mathematics",
     venue: "ESPNcricinfo, September 2014",
     url: "https://www.espncricinfo.com/story/haider-riaz-khan-gh-hardy-the-mathematician-who-loved-cricket-781801",
-    pdf: "/papers/HardyCricket.pdf",
+    pdf: "/publications/HardyCricket.pdf",
     image: "/images/Fenners.png"
   }
 ];

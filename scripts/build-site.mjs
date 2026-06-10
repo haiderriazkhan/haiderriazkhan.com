@@ -1,10 +1,10 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { about, papers, projects } from "../src/data/content.js";
+import { about, publications, projects } from "../src/data/content.js";
 
 const root = process.cwd();
 const dist = path.join(root, "dist");
-const publicAssets = ["images", "papers", "CV.pdf", "favicon.ico", "feed.xml", "sitemap.xml"];
+const publicAssets = ["images", "publications", "CV.pdf", "favicon.ico", "feed.xml", "sitemap.xml"];
 const site = JSON.parse(await fs.readFile(path.join(root, "src/data/site.json"), "utf8"));
 
 const escapeHtml = (value) =>
@@ -124,7 +124,7 @@ function listing({ title, currentPath, items, kind }) {
   return page({
     title,
     currentPath,
-    body: `<section class="list${kind === "projects" ? " list--projects" : kind === "papers" ? " list--papers" : ""}">${cards}</section>`
+    body: `<section class="list${kind === "projects" ? " list--projects" : kind === "publications" ? " list--publications" : ""}">${cards}</section>`
   });
 }
 
@@ -160,7 +160,7 @@ await copyIfExists(path.join(root, "src/scripts"), path.join(dist, "scripts"));
 
 await write("index.html", intro());
 await write("projects/index.html", listing({ title: "Projects", currentPath: "/projects/", items: projects, kind: "projects" }));
-await write("papers/index.html", listing({ title: "Papers", currentPath: "/papers/", items: papers, kind: "papers" }));
+await write("publications/index.html", listing({ title: "Publications", currentPath: "/publications/", items: publications, kind: "publications" }));
 await write("notes/index.html", notes());
 
 console.log("Built site into dist/");

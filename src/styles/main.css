@@ -178,20 +178,20 @@ p {
   margin-bottom: 8px;
 }
 
-.list--papers {
+.list--publications {
   gap: 36px;
 }
 
-.list--papers .list-item {
+.list--publications .list-item {
   gap: 28px;
   grid-template-columns: 140px minmax(0, 1fr);
 }
 
-.list--papers h2 {
+.list--publications h2 {
   font-size: 1.32rem;
 }
 
-.list--papers .meta {
+.list--publications .meta {
   font-size: 0.8rem;
 }
 
@@ -284,11 +284,11 @@ code {
     max-width: 220px;
   }
 
-  .list--papers {
+  .list--publications {
     gap: 32px;
   }
 
-  .list--papers .thumb img {
+  .list--publications .thumb img {
     max-width: 200px;
   }
 
