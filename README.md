@@ -33,11 +33,13 @@ The generated site is written to `dist/`.
 
 ## Notes
 
-The `/notes/` section is set up for [Forester](https://sr.ht/~jonsterling/forester/). Forester is an OCaml tool; install it with opam:
+The `/notes/` section is set up for [Forester](https://sr.ht/~jonsterling/forester/). Forester is an OCaml tool; install it with opam. The CI deploy (`.github/workflows/deploy.yml`) pins Forester `5.0` on OCaml `5.3.0`, so use the same versions locally to keep the notes output layout identical to production:
 
 ```sh
-opam install forester
+opam install forester.5.0
 ```
+
+> Forester `5.0`'s dependency closure does not resolve on newer compilers (e.g. OCaml `5.4.x`); opam would silently install an older Forester with a different output layout. Stick to OCaml `5.3.0`.
 
 Notes live in `notes/trees`. Forester also needs a `notes/theme` directory (XSLT/CSS templates). The first `npm run build:notes` will fetch the base theme automatically if it is missing.
 
