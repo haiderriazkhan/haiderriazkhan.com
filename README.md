@@ -33,7 +33,7 @@ The generated site is written to `dist/`.
 
 ## Notes
 
-The `/notes/` section is set up for [Forester](https://sr.ht/~jonsterling/forester/). Forester is an OCaml tool; install it with opam. The CI deploy (`.github/workflows/deploy.yml`) pins Forester `5.0` on OCaml `5.3.0`, so use the same versions locally to keep the notes output layout identical to production:
+The `/notes/` section is set up with [Forester](https://sr.ht/~jonsterling/forester/). Forester is an OCaml tool; install it with opam. The CI deploy pins Forester `5.0` on OCaml `5.3.0`, so use the same versions locally to keep the notes output layout identical to production:
 
 ```sh
 opam install forester.5.0
