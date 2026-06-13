@@ -1,6 +1,6 @@
 export const about = [
   `I'm a software engineer and mathematician with a background in philosophy. At present, I'm working on symbolic codings of dynamical systems with <a href="https://tamara.ccny.cuny.edu/">Tamara Kucherenko</a>. To learn more about my work, please take a look at my <a href="/CV.pdf">CV</a>.`,
-  `I've been living in New York City for the better part of a decade. On most days, you can find me meandering in one of the city's many parks. My favorite museum is the Cloisters. I am fascinated by the <a href="/publications/Sea-Camus.pdf">ocean</a> and I have a wicked <a href="/images/left-hook.png">left hook</a>.`,
+  `I've been living in New York City for the better part of a decade. On most days, you can find me meandering in one of the city's many parks. My favorite museum is the Cloisters. I am fascinated by the <a href="/publications/Sea-Camus.pdf">ocean</a> and I have a solid <a href="/images/left-hook.png">left hook</a>.`,
 ];
 
 export const projects = [
