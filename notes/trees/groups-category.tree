@@ -1,0 +1,25 @@
+\title{Groups: A Categorical View}
+
+\p{The standard interpretation of a group involves a set that is closed under the group operation along with guarantees of associativity, inverses, and an identity element.}
+\p{There is, however, another way to look at them. A group can be thought of as a category with a single object and a collection of endomorphisms corresponding to each group element. That is, for every #{g} in a group #{G}, we have a corresponding morphism in our category}
+
+##{
+\qquad
+g:\bullet\longrightarrow\bullet
+}
+
+\p{}
+
+\p{In this view, group multiplication corresponds to composition of morphisms:}
+
+##{
+\bullet
+\xrightarrow{\ f\ }
+\bullet
+\xrightarrow{\ g\ }
+\bullet,
+\qquad
+g\circ f=gf.
+}
+
+\p{In fact, we can think of categories that are composed of a single object as monoids (from the Greek word "mono", meaning "single" or "one"). Groups are monoids where each morphism has an inverse.}
