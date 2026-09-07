@@ -28,11 +28,20 @@ jobs:
         uses: ocaml/setup-ocaml@v3
         with:
           ocaml-compiler: "5.3.0"
+          opam-disable-sandboxing: true
+          opam-repositories: |
+            default: https://opam.ocaml.org
 
       # Forester is the OCaml tool that renders notes/trees into dist/notes/.
       # Pin the version so the notes output layout stays reproducible.
       - name: Install Forester
-        run: opam install -y forester.5.0
+        run: |
+          for attempt in 1 2 3; do
+            opam update && opam install -y forester.5.0 && exit 0
+            echo "opam install failed on attempt ${attempt}; retrying..."
+            sleep 15
+          done
+          exit 1
 
       - name: Build site and notes
         run: opam exec -- npm run build
