@@ -1,6 +1,7 @@
 import { spawnSync } from "node:child_process";
 import fs from "node:fs/promises";
 import path from "node:path";
+import { generateNoteRedirects } from "./generate-note-redirects.mjs";
 import { generateSitemap } from "./generate-sitemap.mjs";
 
 const root = process.cwd();
@@ -90,5 +91,6 @@ const sourceDir = await foresterOutputDir();
 await fs.rm(distNotesDir, { recursive: true, force: true });
 await fs.mkdir(distNotesDir, { recursive: true });
 await fs.cp(sourceDir, distNotesDir, { recursive: true, force: true });
+await generateNoteRedirects();
 await generateSitemap();
 console.log("Built Forester notes into dist/notes/");
