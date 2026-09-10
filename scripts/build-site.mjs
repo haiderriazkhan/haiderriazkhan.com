@@ -52,6 +52,7 @@ function page({ title, currentPath, body }) {
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap">
   <link rel="stylesheet" href="/styles/main.css">
   <script type="module" src="/scripts/main.js"></script>
+  <script data-goatcounter="https://haiderriazkhan.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
   <header class="site-header">

@@ -23,6 +23,7 @@
           </xsl:if>
         </script>
         <script type="module" src="{/f:tree/@base-url}forester.js"></script>
+        <script data-goatcounter="https://haiderriazkhan.goatcounter.com/count" async="async" src="https://gc.zgo.at/count.js"></script>
         <title>
           <xsl:value-of select="/f:tree/f:frontmatter/f:title/@text" />
         </title>
