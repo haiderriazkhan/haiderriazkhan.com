@@ -1,7 +1,7 @@
 \title{Groups: A Categorical View}
 
 \p{The standard interpretation of a group involves a set that is closed under the group operation along with guarantees of associativity, inverses, and an identity element.}
-\p{There is, however, another way to look at them. A group can be thought of as a category with a single object and a collection of endomorphisms corresponding to each group element. That is, for every #{g} in a group #{G}, we have a corresponding morphism in our category}
+\p{There is, however, another way to look at them. A group can be thought of as a category with a single object and a collection of [endomorphisms](category-theory) corresponding to each group element. That is, for every #{g} in a group #{G}, we have a corresponding morphism in our category}
 
 ##{
 \qquad
@@ -23,3 +23,13 @@ g\circ f=gf.
 }
 
 \p{In fact, we can think of categories that are composed of a single object as monoids (from the Greek word "mono", meaning "single" or "one"). Groups are monoids where each morphism has an inverse.}
+\p{}
+\p{So far, we've been looking at a category corresponding to a single group. But we can build a category consisting of all possible groups, where each object in the category represents an individual group.}
+\p{What about the morphisms?}
+\p{In this case, the morphisms represent group homomorphisms! Recall that group homomorphisms preserve group operations. By that I mean, given groups #{G} and #{H}, and a group homomorphism #{\varphi:G\to H}, implies}
+
+##{
+\varphi(xy) = \varphi(x)\varphi(y) \quad \forall x, y \in G
+}
+
+\p{If the morphism is invertible, then they are isomorphic. That is, as close to equality as you can get in a categorical setting.}

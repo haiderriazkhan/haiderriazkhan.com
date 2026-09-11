@@ -1,0 +1,31 @@
+\title{Category Theory: A Sketch}
+\p{The ontology of a (1-)category consists of objects and morphisms. The former are opaque, you cannot peer inside objects. Morphisms, on the other hand, are relations between objects. In category theory, morphisms form the epistemic bedrock for comparison. Specifically, objects are determined by their relations with other objects (up to isomorphism) and the category that they belong to.}
+\p{These relations have to abide by a composition rule:}
+##{
+A
+\xrightarrow{\ f\ }
+B
+\xrightarrow{\ g\ }
+C,
+\qquad
+g\circ f : A \longrightarrow C.
+}
+
+\p{Composition is associative, meaning the grouping of compositions does not matter:}
+
+##{
+A
+\xrightarrow{\ f\ }
+B
+\xrightarrow{\ g\ }
+C
+\xrightarrow{\ h\ }
+D,
+\qquad
+h\circ(g\circ f) = (h\circ g)\circ f.
+}
+
+\p{On the other hand, every object must have an identity morphism, which is a unique morphism back to the object itself and which has no effect when composed with other morphisms. More generally, morphisms between the same object are called endomorphisms. }
+\p{But that is not all! We can have relations not just between objects in a category, but between objects and their morphisms across categories. These relations are called functors and they must preserve identities and composition. A functor that has the same source and target is called an endofunctor.}
+\p{That is still not the end. We can have relations between functors. These connections are called natural transformations. They help us determine how different two functors are in their transformation of the source category.}
+\p{That is the basic picture.}
