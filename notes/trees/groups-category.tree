@@ -25,11 +25,11 @@ g\circ f=gf.
 \p{In fact, we can think of categories that are composed of a single object as monoids (from the Greek word "mono", meaning "single" or "one"). Groups are monoids where each morphism has an inverse.}
 \p{}
 \p{So far, we've been looking at a category corresponding to a single group. But we can build a category consisting of all possible groups, where each object in the category represents an individual group.}
-\p{What about the morphisms?}
-\p{In this case, the morphisms represent group homomorphisms! Recall that group homomorphisms preserve group operations. By that I mean, given groups #{G} and #{H}, and a group homomorphism #{\varphi:G\to H}, implies}
+\p{What about the morphisms in this grand category?}
+\p{In this case, the morphisms represent group homomorphisms! Recall that group homomorphisms preserve group operations. By that I mean, given groups #{G} and #{H}, and a group homomorphism #{\varphi:G\to H}, we have}
 
 ##{
 \varphi(xy) = \varphi(x)\varphi(y) \quad \forall x, y \in G
 }
 
-\p{If the morphism is invertible, then they are isomorphic. That is, as close to equality as you can get in a categorical setting.}
+\p{If the morphism is invertible, then #{G} and #{H} are isomorphic. That is, as close to equality as you can get in a categorical setting.}

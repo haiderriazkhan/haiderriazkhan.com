@@ -25,7 +25,7 @@ D,
 h\circ(g\circ f) = (h\circ g)\circ f.
 }
 
-\p{On the other hand, every object must have an identity morphism, which is a unique morphism back to the object itself and which has no effect when composed with other morphisms. More generally, morphisms between the same object are called endomorphisms. }
-\p{But that is not all! We can have relations not just between objects in a category, but between objects and their morphisms across categories. These relations are called functors and they must preserve identities and composition. A functor that has the same source and target is called an endofunctor.}
-\p{That is still not the end. We can have relations between functors. These connections are called natural transformations. They help us determine how different two functors are in their transformation of the source category.}
+\p{On the other hand, every object must have an identity morphism #{id_A: A \to A}, which is a unique self-morphism that has no effect when composed with other morphisms. More generally, morphisms from an object to itself are called endomorphisms, of which the identity morphism is a special case.}
+\p{Next, we can have relations not just between objects in a category, but between objects and their morphisms across categories. These relations are called functors and they must preserve identities and composition. A functor that has the same source and target is called an endofunctor.}
+\p{But that is not all. We can have relations between two functors that share the same source and target category. These connections are called natural transformations. They help us gauge how different the functors are in their transformation of the source category. Specifically, given two functors #{F} and #{G}, a natural transformation #{\alpha} assigns to each object #{A}, a morphism #{\alpha_A: F A \to G A}, such that it is conformant with existing morphisms.}
 \p{That is the basic picture.}
